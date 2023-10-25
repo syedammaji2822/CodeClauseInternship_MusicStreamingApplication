@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #303030;
+    background-image: linear-gradient(to bottom, #aca4a4, #202020);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .heading {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  .music-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(196, 81, 81, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+  
+  .song-list {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .player {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    background-color: #bfa71c;
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .now-playing {
+    margin-bottom: 20px;
+    color: #010000;
+  }
+  .now-playing h2{
+    text-align: center;
+    text-shadow: #010000;
+    text-decoration: solid;
+  }
+  .now-playing p{
+    text-align: center;
+  }
+  #musicImage {
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  #audioPlayer {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+  }
+  
